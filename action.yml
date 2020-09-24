@@ -1,0 +1,16 @@
+name: 'Run an opnionated maven setup'
+description: 'Run an opnionated maven setup'
+author: 'Soren Mathiasen'
+runs:
+  using: 'docker'
+  image: 'docker://sorenmat/action-maven:latest'
+  args:
+    - ${{ inputs.cmd }}  
+branding:
+  icon: 'check-square'
+  color: 'blue'
+inputs:
+  cmd:  # id of input
+    description: 'maven command to run, defaults to mvn'
+    required: true
+    default: 'mvn'  

@@ -1,0 +1,13 @@
+# actions-maven
+
+envs that needs to be set
+
+MAVEN_SETTINGS
+
+MAVEN_SETTINGS_SECURITY
+
+CERTIFICATE_P12
+
+ROOT_CA
+
+KEYSTORE_PASSWORD
